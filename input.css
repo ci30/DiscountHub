@@ -194,5 +194,13 @@ Iranic fonts
 
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap');
 
+@layer components{
+	.form-append .btn {
+		border-top-right-radius: 0px;
+		border-bottom-right-radius: 0px;
+		margin-right: -0.25rem/* -4px */ !important;
+	}
+}
+
 
 
